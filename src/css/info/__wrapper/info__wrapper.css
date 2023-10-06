@@ -1,0 +1,11 @@
+.info__wrapper {
+    display: flex;
+    width: 1372px;
+    border-bottom: 1px solid #F25330;
+    margin-top: 76px;
+    padding-bottom: 63px;
+}
+
+.info__wrapper:last-of-type {
+    border: none;
+}

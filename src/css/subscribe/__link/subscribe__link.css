@@ -1,0 +1,16 @@
+.subscribe__link {
+    max-width: 400px;
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    opacity: 1;
+    transition: all .3s ease-in-out;
+}
+
+.subscribe__link:hover {
+    opacity: .6;
+    transition: all .3s ease-in-out;
+}

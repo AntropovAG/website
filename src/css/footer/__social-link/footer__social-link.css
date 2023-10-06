@@ -1,0 +1,15 @@
+.footer__social-link {
+    width: 35px;
+    height: 35px;
+    opacity: 1;
+    transition: all .3s ease-in-out;
+}
+
+.footer__social-link:last-of-type {
+    margin-left: 28px;
+}
+
+.footer__social-link:hover {
+    opacity: .6;
+    transition: all .3s ease-in-out;
+}

@@ -7,9 +7,51 @@
     <title>{{ title }} | {{ site.name }}</title>
     <link rel="stylesheet" href="{{ 'css/style.css' | url }}">
   </head>
-  <body>
-    <main>
+  <body class="page">
+    <header class="header">
+      <div class="header__wrapper">
+        <p class="header__title">ШТАБ КАНДИДАТОВ</p>
+        <div class="header__container">
+          <nav class="header__navigation">
+            <ul class="header__links">
+              <li>
+                <a class="header__link" href="#">2023</a>
+              </li>
+              <li>
+                <a class="header__link" href="#">Кандидаты</a>
+              </li>
+              <li>
+                <a class="header__link" href="#">Наблюдение</a>
+              </li>
+            </ul>
+          </nav>
+          <a class="header__button header__button_color_white" href="#">Присоединиться</a>
+          <a class="header__button header__button_color_red" href="#">Поддержать</a>
+        </div>
+      </div>
+    </header>
+    
+    <main class="main">
       {{ content | safe }}
     </main>
+
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <a class="footer__email" href="mailto: dtkisiev@protonmail.com">dtkisiev@protonmail.com</a>
+        <div class="footer__info">
+          <h3 class="footer__info-heading"> ПОЛИТИКА БЕЗОПАСНОСТИ</h3>
+          <p class="footer__info-text">Совершая пожертвование, пользователь заключает договор пожертвованияпутем акцепта <a class="footer__info-link" href="#">публичной оферты</a>.</p>
+          <p class="footer__info-text"> <a class="footer__info-link" href="#">Политика обработки персональных данных</a>.</p>
+        </div>
+        <div class="footer__links">
+        <a class="footer__social-link" href="#">
+          <img src="./images/telegram_logo.png" alt="телеграм">
+        </a>
+        <a class="footer__social-link" href="#">
+          <img src="./images/twitter_logo.png" alt="твиттер">
+        </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

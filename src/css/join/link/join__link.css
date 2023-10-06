@@ -1,0 +1,19 @@
+.join__link {
+    max-width: 1440px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 16px;
+    opacity: 1;
+    transition: all .3s ease-in-out;
+}
+
+.join__link:hover {
+    opacity: .6;
+    transition: all .3s ease-in-out;
+}

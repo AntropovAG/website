@@ -1,0 +1,10 @@
+.office-team__card {
+    display: flex;
+    flex-direction: column;
+    width: 248px;
+    margin: 0 33px 0 0 ;
+}
+
+.office-team__card:last-of-type {
+    margin-right: 0;
+}

@@ -1,0 +1,9 @@
+.join {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 245px;
+    background-color: #5FCEF5;
+    margin: 82px auto 0;
+    justify-content: center;
+}

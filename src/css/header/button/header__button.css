@@ -1,0 +1,21 @@
+.header__button {
+    text-decoration: none;
+    border-radius: 12px;
+    border: 2px solid #E94A70;
+    background: none;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px;
+    margin-right: 26px;
+    opacity: 1;
+    transition: all .5s ease-in-out;
+}
+
+.header__button:hover {
+    cursor: pointer;
+    opacity: .6;
+    transition: all .3s ease-in-out;
+}

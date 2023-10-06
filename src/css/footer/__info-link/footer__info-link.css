@@ -1,0 +1,10 @@
+.footer__info-link {
+    color: #fff;
+    opacity: 1;
+    transition: all .3s ease-in-out;
+}
+
+.footer__info-link:hover {
+    opacity: .6;
+    transition: all .3s ease-in-out;
+}

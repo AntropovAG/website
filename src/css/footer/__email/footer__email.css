@@ -1,0 +1,17 @@
+.footer__email {
+    max-width: fit-content;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-left: 76px;
+    opacity: 1;
+    transition: all .3s ease-in-out;
+}
+
+.footer__email:hover {
+    opacity: .6;
+    transition: all .3s ease-in-out;
+}

@@ -1,0 +1,11 @@
+.join__description {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFF;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    white-space: pre-line;
+}

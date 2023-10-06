@@ -1,0 +1,11 @@
+.info__heading {
+    max-width: 490px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0;
+    padding-left: 40px;
+}

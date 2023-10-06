@@ -1,20 +1,42 @@
-html {
-  font-family: sans-serif;
-  font-size: 16px;
-}
+@import url(../fonts/fonts.css);
+@import url(../vendor/normalize.css);
+@import url(./page/page.css);
+@import url(./header/header.css);
+@import url(./header/__wrapper/header__wrapper.css);
+@import url(./header/__title/header__title.css);
+@import url(./header/__container/header__container.css);
+@import url(./header/__navigation/header__navigation.css);
+@import url(./header/__links/header__links.css);
+@import url(./header/__link/header__link.css);
+@import url(./header/button/header__button.css);
+@import url(./header/button/_color/_red/header__button_color_red.css);
+@import url(./header/button/_color/_white/header__button_color_white.css);
+@import url(./main/main.css);
+@import url(./main/__heading/main__heading.css);
+@import url(./office-team/office-team.css);
+@import url(./office-team/__description/office-team__description.css);
+@import url(./office-team/__members-container/office-team__members-container.css);
+@import url(./office-team/__card/office-team__card.css);
+@import url(./office-team/__card-image/office-team__card-image.css);
+@import url(./office-team/__card-name/office-team__card-name.css);
+@import url(./office-team/__card-position/office-team__card-position.css);
+@import url(./join/join.css);
+@import url(./join/description/join__description.css);
+@import url(./join/link/join__link.css);
+@import url(./info/info.css);
+@import url(./info/__wrapper/info__wrapper.css);
+@import url(./info/__heading/info__heading.css);
+@import url(./info/__list/info__list.css);
+@import url(./info/__list-item/info__list-item.css);
+@import url(./subscribe/subscribe.css);
+@import url(./subscribe/__link/subscribe__link.css);
 
-section {
-  padding: 1cm;
-}
-
-.people {
-  display: flex;
-  flex-direction: row;
-}
-
-.person > img {
-  object-fit: cover;
-  border-radius: 50%;
-  width: 5cm;
-  height: 5cm;
-}
+@import url(./footer/footer.css);
+@import url(./footer/__wrapper/footer__wrapper.css);
+@import url(./footer/__email/footer__email.css);
+@import url(./footer/__info/footer__info.css);
+@import url(./footer/__info-heading/footer__info-heading.css);
+@import url(./footer/__info-text/footer__info-text.css);
+@import url(./footer/__info-link/footer__info-link.css);
+@import url(./footer/__links/footer__links.css);
+@import url(./footer/__social-link/footer__social-link.css);
